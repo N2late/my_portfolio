@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+html {
+    font-family: Roboto, arial;
+    font-size: 16px;
+    background-color: white;
+    color: #797979;
+}
+
+body {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #05364d;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #797979;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    align-content: center;
+    height: 100%;
+}
+
+.profile-photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.profile-photo img {
+    width: 69%;
+    border-radius: 10px;
+}
+
+.intro {
+   width: 50%;
+}
+
+.greeting {
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.slogan {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+.fa-github {
+    color: black;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+    font-size: 90%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+
+input:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.project-title h3 {
+    display: inline;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.project-title {
+    margin-bottom: 20px;
+}
