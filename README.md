@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+## NOTE: It is a work in progress.
+
 ## Scope
 
 Portfolio Project for the CodeCademy Full-Stack Engineer Path.
