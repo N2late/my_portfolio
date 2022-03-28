@@ -72,7 +72,7 @@ const titleGenerator = val => {
     let title = randomize(val);
     // to assure to always generate a new title
     while (titles.includes(title)) {
-        titleGenerator()
+        titleGenerator(val)
     }
     titles.push(title);
     if (val === movies) {
