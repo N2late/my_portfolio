@@ -128,3 +128,21 @@ h2 {
 .project-title {
     margin-bottom: 20px;
 }
+
+#movie, #serie, #book {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.titles-generator {
+    width: 10%;
+    height: 30px;
+    justify-content: center;
+}
+
+.titles {
+    display: flex;
+}
