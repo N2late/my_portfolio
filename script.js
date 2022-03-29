@@ -47,10 +47,16 @@ const books = [
                 "Post Office by Charles Bukowski",
                 "Ham on Rye by Charles Bukowski",
                 "The Man Who Planted Trees by Jean Giono",
-                "Night Train to Lisbon by Pascal Mercier"
+                "Night Train to Lisbon by Pascal Mercier",
+                "South of the Border, West of the Sun by Haruki Murakami",
+                "The Uncommon Reader by Alan Bennett",
+                "The Little Prince by Antoine de Saint-Exupéry",
+                "Of Human Bondage by W. Somerset Maugham",
+                "Travesuras de la niña mala (The Bad Girl) by Mario Vargas Llosa",
+                "Love in the Time of Cholera by Gabriel García Márquez",
+                "The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared by Jonas Jonasson",
+                "The Travelling Cat Chronicles by Hiro Arikawa"
 ]
-// store generated titles
-let titles = [];
 
 // random number generator
 let randomize = arr => {
@@ -70,11 +76,6 @@ const titleGenerator = val => {
         val = books;
     }
     let title = randomize(val);
-    // to assure to always generate a new title
-    while (titles.includes(title)) {
-        titleGenerator(val)
-    }
-    titles.push(title);
     if (val === movies) {
         return document.getElementById("movie").innerHTML = title;
     }
