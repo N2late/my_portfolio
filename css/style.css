@@ -45,7 +45,7 @@ nav {
 .home {
     display: flex;
     justify-content: space-between;
-    margin-top: 15%;
+    padding-top: 15%;
     margin-bottom: 15%;
     align-content: center;
     height: 100%;
@@ -81,6 +81,10 @@ h1 {
     line-height: 1.4;
 }
 
+.li-intro {
+    color: inherit;
+}
+
 .fa-github {
     color: black;
     margin-left: 10px;
@@ -91,7 +95,8 @@ input {
     width: 40%;
     height: 40px;
     font-size: 90%;
-    background-color: blue;
+    background-color: #05364d;
+    opacity: 0.8;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -100,7 +105,7 @@ input {
 }
 
 input:hover {
-    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #0095ff 49%, #4f7afc 60%, #00C0FF 100%);
     animation: slidebg 5s linear infinite;
 }
 
@@ -129,6 +134,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+.about-me p {
+    line-height: 1.4;
+    text-align: justify;
+}
+
 #movie, #serie, #book {
     display: inline-block;
     font-weight: 600;
@@ -145,4 +155,26 @@ h2 {
 
 .titles {
     display: flex;
+}
+
+.skill-logos {
+    
+}
+
+.fa-brands, fa-envelope, .contact {
+    display: inline-block;
+    margin-right: 15px;
+    color: #05364d;
+}
+
+i .fa-solid {
+    display: inline-block;
+}
+
+section, footer {
+    padding-top: 4%;
+}
+
+.copy {
+    font-size: 0.9rem;
 }
