@@ -70,6 +70,7 @@ div .small-screen {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    min-width: 235px;
 }
 
 .intro {
@@ -185,6 +186,22 @@ h2 {
     margin-bottom: 20px;
 }
 
+.summary-project {
+    display: flex;
+}
+
+.summary-text {
+    width: 50%;
+}
+
+.project-img {
+    width: 250px;
+}
+
+.project-img-2 {
+    width: 325px;
+}
+
 /* Skills, Contacts and Footer Section */
 
 .fa-brands, fa-envelope, .contact {
@@ -246,10 +263,12 @@ section, footer {
     .navigation {
         flex-grow: 1;
         height: 10px;
+        flex-wrap: wrap;
     }
 
     .navigation a {
         font-size: 0.8rem;
+        margin-left: 5px;
     }
 
     .logo {
@@ -259,13 +278,12 @@ section, footer {
     .name-photo {
         display: flex;
         justify-content: center;
-        height: 200px;
+        flex-wrap: wrap;
     }
 
     .profile-photo img {
         width: 100%;
         border-radius: 50%;
-        height: 200px;
     }
 
     .large-screen {
@@ -320,6 +338,14 @@ section, footer {
         font-size: 1rem !important;
     }
 
+    .summary-project {
+        flex-wrap: wrap;
+    }
+
+    .summary-text {
+        width: 100%;
+    }
+
     .smaller-icons {
         display: inline !important;
     }
@@ -327,4 +353,5 @@ section, footer {
     .larger-icons {
         display: none;
     }
+
 }
