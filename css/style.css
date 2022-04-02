@@ -153,6 +153,11 @@ input:active {
     margin-top: 10px;
 }
 
+span {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 .titles-generator {
     width: 100px;
     height: 30px;
